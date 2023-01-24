@@ -1,0 +1,41 @@
+.loader {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(31, 48, 48);
+  position: absolute;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.content-loading {
+  display: none;
+} 
+
+.loader div {
+  height: 100px;
+  width: 100px;
+  border: 15px solid #4547;
+  border-top-color: #2a88e6;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  animation: spin 0.75s ease infinite;
+}
+
+.loader-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
