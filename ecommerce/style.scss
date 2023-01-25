@@ -46,7 +46,7 @@ header {
 .home {
   width: 100%;
   min-height: 100vh;
-  background-image: url(img/background.jpg);
+  background-image: url(img/background.jpeg);
   background-repeat: no-repeat;
   background-size: covere;
   background-position: right;
@@ -56,6 +56,7 @@ header {
 }
 .home-text h1 {
   font-size: 2.7rem;
+  // margin: 0.4rem -5rem 1.8rem;
 }
 .home-text p {
   font-size: 0.938rem;
@@ -70,6 +71,7 @@ header {
   color: #fff;
   border-radius: 0.3rem;
   font-size: 14px;
+  // margin: 0.4rem -5rem 1.8rem;
 }
 .btn:hover {
   background: #8fc53d;

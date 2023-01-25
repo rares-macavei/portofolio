@@ -13,7 +13,7 @@
 
 :root {
   --text-color: #000000;
-  --main-color: #83b735;
+  --main-color: purple;
 }
 
 .loader {
@@ -109,7 +109,7 @@ header {
 .home {
   width: 100%;
   min-height: 100vh;
-  background-image: url(img/background.jpg);
+  background-image: url(img/background.jpeg);
   background-repeat: no-repeat;
   background-size: covere;
   background-position: right;
