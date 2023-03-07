@@ -1,3 +1,4 @@
+
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -8,6 +9,7 @@ menu.onclick = () => {
 window.onscroll = () => {
     navbar.classList.remove('active');
 }
+
 window.addEventListener("load", () => {
     const loader = document.querySelector('.loader');
     const content = document.querySelector('.content-loading');

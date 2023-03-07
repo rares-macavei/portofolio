@@ -1,0 +1,7 @@
+$font-primary: "Montserrat", sans-serif;
+
+@mixin display-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
